@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body{
+    display: grid;
+    height: 100%;
+    place-content: center;
+    background: #1abc9c;
+}
+
+.card {
+    width : 380px;
+    background: white;
+    border-radius: 5px;
+}
+
+.card .card-header{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #16a086;
+    line-height: 80px;
+    border-radius: 5px 5px 0 0;
+    color : white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.card form{
+    padding: 20px 30px 25px 20px;
+    box-shadow: 1px rgba(0,0,0,0.1);
+}
+
+.card form .data{
+    height: 45px;
+    margin-bottom: 15px;
+    background: #fff;
+    position: relative;
+}
+
+.card form .data input {
+    height: 100%;
+    width: 100%;
+    padding-left: 60px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 14px;
+}
+
+.card form .data input:focus{
+    border: 1px solid #16a086;
+}
+
+.card form .data i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    color: white;
+    font-size: 18px;
+    background: #16a086;
+    border: #16a086 solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px 0 0 5px;
+}
+
+.card form .button input{
+    padding-left: 0px;
+    color: white;
+    background-color: #16a086;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid #16a086;
+    transition: 0.3s;
+}
+
+.card form .button input:hover{
+    background-color: #168a74;
+}
+
+.forgot{
+    text-decoration: none;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 14px;
+    color: #16a086;
+    cursor: pointer;
+}
+
+.forgot a{
+    text-decoration: none;
+    color: #16a086;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.forgot a:hover{
+    text-decoration: underline;
+}
+
+.signup-link{
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.signup-link a{
+    text-decoration: none;
+    color: #16a086;
+    cursor: pointer;
+}
+
+.signup-link a:hover{
+    text-decoration: underline;
+}
